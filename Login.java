@@ -145,6 +145,7 @@ public class Login extends javax.swing.JFrame {
                 JOptionPane.showConfirmDialog(this, "Login Successfully");
                 Dashboard.main(null);
                 this.dispose();
+                System.out.print("Password"+password);
             }else{
                 JOptionPane.showConfirmDialog(this, "Invalid Password");
             }
